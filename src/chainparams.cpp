@@ -256,15 +256,11 @@ public:
 
         checkpointData = {
             {
-                {546, uint256S("000000002a936ca763904c3c35fce2f3556c559c0214345d31b1bcebf76acb70")},
+                {0, uint256S("0x0000000048c26795e2cd7d8e73605e015cb3c5819c7b8dfc8fbcb3b899cbc81d")},
             }
         };
 
         chainTxData = ChainTxData{
-            // Data as of block 000000000000033cfa3c975eb83ecf2bb4aaedf68e6d279f6ed2b427c64caff9 (height 1260526)
-            1516903490,
-            17082348,
-            0.09
         };
 
     }
@@ -327,7 +323,7 @@ public:
 
         checkpointData = {
             {
-                {0, uint256S("0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206")},
+                {0, uint256S("0x0000000048c26795e2cd7d8e73605e015cb3c5819c7b8dfc8fbcb3b899cbc81d")},
             }
         };
 
