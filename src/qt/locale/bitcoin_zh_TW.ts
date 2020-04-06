@@ -1,4 +1,6 @@
-<TS language="zh_TW" version="2.1">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="zh_TW">
 <context>
     <name>AddressBookPage</name>
     <message>
@@ -62,12 +64,12 @@
         <translation>收款位址</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>這些是你要付款過去的 Bitcoin 位址。在付錢之前，務必要檢查金額和收款位址是否正確。</translation>
+        <source>These are your Bitcoin Youth addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation type="unfinished">這些是你要付款過去的 Bitcoin Youth 位址。在付錢之前，務必要檢查金額和收款位址是否正確。</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>這些是你用來收款的 Bitcoin 位址。建議在每次交易時，都使用一個新的收款位址。</translation>
+        <source>These are your Bitcoin Youth addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation type="unfinished">這些是你用來收款的 Bitcoin Youth 位址。建議在每次交易時，都使用一個新的收款位址。</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -172,8 +174,8 @@
         <translation>確認錢包加密</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation>警告: 如果把錢包加密後又忘記密碼，你就會從此&lt;b&gt;失去其中所有的 Bitcoin 了&lt;/b&gt;！</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINYOUTHS&lt;/b&gt;!</source>
+        <translation type="unfinished">警告: 如果把錢包加密後又忘記密碼，你就會從此&lt;b&gt;失去其中所有的 Bitcoin Youth 了&lt;/b&gt;！</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -184,7 +186,7 @@
         <translation>錢包已加密</translation>
     </message>
     <message>
-        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
+        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoinyouths from being stolen by malware infecting your computer.</source>
         <translation>%1 現在要關閉，好完成加密程序。請注意，加密錢包不能完全防止入侵你的電腦的惡意程式偷取錢幣。</translation>
     </message>
     <message>
@@ -342,8 +344,8 @@
         <translation>正在為磁碟裡的區塊重建索引...</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation>付錢給一個 Bitcoin 位址</translation>
+        <source>Send coins to a Bitcoin Youth address</source>
+        <translation>付錢給一個 Bitcoin Youth 位址</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -366,8 +368,8 @@
         <translation>驗證訊息(&amp;V)...</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <source>Bitcoin Youth</source>
+        <translation>Bitcoin Youth</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -394,12 +396,12 @@
         <translation>把錢包中的密鑰加密</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>用 Bitcoin 位址簽署訊息來證明位址是你的</translation>
+        <source>Sign messages with your Bitcoin Youth addresses to prove you own them</source>
+        <translation>用 Bitcoin Youth 位址簽署訊息來證明位址是你的</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>驗證訊息是用來確定訊息是用指定的 Bitcoin 位址簽署的</translation>
+        <source>Verify messages to ensure they were signed with specified Bitcoin Youth addresses</source>
+        <translation>驗證訊息是用來確定訊息是用指定的 Bitcoin Youth 位址簽署的</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -419,7 +421,7 @@
     </message>
     <message>
         <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>要求付款(產生 QR Code 和 bitcoin 付款協議的資源識別碼: URI)</translation>
+        <translation>要求付款(產生 QR Code 和 bitcoin youth付款協議的資源識別碼: URI)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -431,15 +433,17 @@
     </message>
     <message>
         <source>Open a bitcoin: URI or payment request</source>
-        <translation>開啓 bitcoin 協議的資源識別碼(URI)或付款要求</translation>
+        <translation>開啓 bitcoin youth 協議的資源識別碼(URI)或付款要求</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>命令列選項(&amp;C)</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network</source>
-        <translation><numerusform>%n 個運作中的 Bitcoin 網路連線</numerusform></translation>
+        <source>%n active connection(s) to Bitcoin Youth network</source>
+        <translation>
+            <numerusform>%n 個運作中的 Bitcoin Youth 網路連線</numerusform>
+        </translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -451,7 +455,9 @@
     </message>
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
-        <translation><numerusform>已經處理了 %n 個區塊的交易紀錄。</numerusform></translation>
+        <translation>
+            <numerusform>已經處理了 %n 個區塊的交易紀錄。</numerusform>
+        </translation>
     </message>
     <message>
         <source>%1 behind</source>
@@ -482,7 +488,7 @@
         <translation>最新狀態</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Bitcoin command-line options</source>
+        <source>Show the %1 help message to get a list with possible Bitcoin Youth command-line options</source>
         <translation>顯示 %1 的說明訊息，來取得可用命令列選項的列表</translation>
     </message>
     <message>
@@ -552,8 +558,8 @@
         <translation>錢包&lt;b&gt;已加密&lt;/b&gt;並且&lt;b&gt;上鎖中&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Bitcoin can no longer continue safely and will quit.</source>
-        <translation>發生了致命的錯誤。Bitcoin 軟體沒辦法再繼續安全執行，只好結束。</translation>
+        <source>A fatal error occurred. Bitcoin Youth can no longer continue safely and will quit.</source>
+        <translation>發生了致命的錯誤。Bitcoin Youth軟體沒辦法再繼續安全執行，只好結束。</translation>
     </message>
 </context>
 <context>
@@ -746,11 +752,11 @@
         <translation>編輯付款位址</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
-        <translation>輸入的位址 %1 並不是有效的 Bitcoin 位址。</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Bitcoin Youth address.</source>
+        <translation>輸入的位址 %1 並不是有效的 Bitcoin Youth 位址。</translation>
     </message>
     <message>
-        <source>The entered address "%1" is already in the address book.</source>
+        <source>The entered address &quot;%1&quot; is already in the address book.</source>
         <translation>輸入的位址 %1 在位址簿中已經有了。</translation>
     </message>
     <message>
@@ -820,7 +826,7 @@
         <translation>啓動時選擇資料目錄(預設值: %u)</translation>
     </message>
     <message>
-        <source>Set language, for example "de_DE" (default: system locale)</source>
+        <source>Set language, for example &quot;de_DE&quot; (default: system locale)</source>
         <translation>設定語言，比如說 de_DE (預設值: 系統語系)</translation>
     </message>
     <message>
@@ -875,8 +881,8 @@
         <translation>使用自訂的資料目錄:</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <source>Bitcoin Youth</source>
+        <translation>Bitcoin Youth</translation>
     </message>
     <message>
         <source>At least %1 GB of data will be stored in this directory, and it will grow over time.</source>
@@ -887,15 +893,15 @@
         <translation>在這個目錄中大約會存放 %1 GB 的資料。</translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the Bitcoin block chain.</source>
-        <translation>%1 會下載 Bitcoin 區塊鏈並且儲存一份副本。</translation>
+        <source>%1 will download and store a copy of the Bitcoin Youth block chain.</source>
+        <translation>%1 會下載 Bitcoin Youth 區塊鏈並且儲存一份副本。</translation>
     </message>
     <message>
         <source>The wallet will also be stored in this directory.</source>
         <translation>錢包檔也會存放在這個目錄中。</translation>
     </message>
     <message>
-        <source>Error: Specified data directory "%1" cannot be created.</source>
+        <source>Error: Specified data directory &quot;%1&quot; cannot be created.</source>
         <translation>錯誤: 無法新增指定的資料目錄: %1</translation>
     </message>
     <message>
@@ -904,11 +910,15 @@
     </message>
     <message numerus="yes">
         <source>%n GB of free space available</source>
-        <translation><numerusform>可用空間尚存 %n GB</numerusform></translation>
+        <translation>
+            <numerusform>可用空間尚存 %n GB</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <source>(of %n GB needed)</source>
-        <translation><numerusform>(需要 %n GB)</numerusform></translation>
+        <translation>
+            <numerusform>(需要 %n GB)</numerusform>
+        </translation>
     </message>
 </context>
 <context>
@@ -918,12 +928,12 @@
         <translation>表單</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the bitcoin network, as detailed below.</source>
-        <translation>最近的交易可能還看不到，因此錢包餘額可能不正確。在錢包軟體完成跟 bitcoin 網路的同步後，這裡的資訊就會正確。詳情請見下面。</translation>
+        <source>Recent transactions may not yet be visible, and therefore your wallet&apos;s balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the bitcoin youth network, as detailed below.</source>
+        <translation>最近的交易可能還看不到，因此錢包餘額可能不正確。在錢包軟體完成跟 bitcoin youth 網路的同步後，這裡的資訊就會正確。詳情請見下面。</translation>
     </message>
     <message>
-        <source>Attempting to spend bitcoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-        <translation>使用還沒顯示出來的交易所影響到的 bitcoin 可能會不被網路所接受。</translation>
+        <source>Attempting to spend bitcoinyouths that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <translation>使用還沒顯示出來的交易所影響到的 bitcoin youth 可能會不被網路所接受。</translation>
     </message>
     <message>
         <source>Number of blocks left</source>
@@ -1025,7 +1035,7 @@
     </message>
     <message>
         <source>Use separate SOCKS&amp;5 proxy to reach peers via Tor hidden services:</source>
-        <translation>透過另外的 SOCKS&amp;5 代理伺服器來連線到 Bitcoin 網路中的 Tor 隱藏服務:</translation>
+        <translation>透過另外的 SOCKS&amp;5 代理伺服器來連線到 Bitcoin Youth 網路中的 Tor 隱藏服務:</translation>
     </message>
     <message>
         <source>Hide the icon from the system tray.</source>
@@ -1092,8 +1102,8 @@
         <translation>可以花還沒確認的零錢(&amp;S)</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>自動在路由器上開放 Bitcoin 的客戶端通訊埠。只有在你的路由器支援且開啓「通用即插即用」協定(UPnP)時才有作用。</translation>
+        <source>Automatically open the Bitcoin Youth client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>自動在路由器上開放 Bitcoin Youth 的客戶端通訊埠。只有在你的路由器支援且開啓「通用即插即用」協定(UPnP)時才有作用。</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1108,8 +1118,8 @@
         <translation>接受外來連線(&amp;G)</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a SOCKS5 proxy.</source>
-        <translation>透過 SOCKS5 代理伺服器來連線到 Bitcoin 網路。</translation>
+        <source>Connect to the Bitcoin Youth network through a SOCKS5 proxy.</source>
+        <translation>透過 SOCKS5 代理伺服器來連線到 Bitcoin Youth 網路。</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1144,8 +1154,8 @@
         <translation>Tor</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>透過另外的 SOCKS5 代理伺服器來連線到 Bitcoin 網路中的 Tor 隱藏服務。</translation>
+        <source>Connect to the Bitcoin Youth network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <translation>透過另外的 SOCKS5 代理伺服器來連線到 Bitcoin Youth 網路中的 Tor 隱藏服務。</translation>
     </message>
     <message>
         <source>&amp;Window</source>
@@ -1251,8 +1261,8 @@
         <translation>表單</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>顯示的資訊可能是過期的。跟 Bitcoin 網路的連線建立後，你的錢包會自動和網路同步，但是這個步驟還沒完成。</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin Youth network after a connection is established, but this process has not completed yet.</source>
+        <translation>顯示的資訊可能是過期的。跟 Bitcoin Youth 網路的連線建立後，你的錢包會自動和網路同步，但是這個步驟還沒完成。</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1326,8 +1336,8 @@
         <translation>要求付款時發生錯誤</translation>
     </message>
     <message>
-        <source>Cannot start bitcoin: click-to-pay handler</source>
-        <translation>沒辦法啟動 bitcoin 協議的「按就付」處理器</translation>
+        <source>Cannot start bitcoinyouth: click-to-pay handler</source>
+        <translation>沒辦法啟動 bitcoinyouth 協議的「按就付」處理器</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1342,8 +1352,8 @@
         <translation>無效的付款位址 %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
-        <translation>沒辦法解析 URI 位址！可能是因為 Bitcoin 位址無效，或是 URI 參數格式錯誤。</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Bitcoin Youth address or malformed URI parameters.</source>
+        <translation>沒辦法解析 URI 位址！可能是因為 Bitcoin Youth 位址無效，或是 URI 參數格式錯誤。</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1358,7 +1368,7 @@
         <translation>付款的要求被拒絕了</translation>
     </message>
     <message>
-        <source>Payment request network doesn't match client network.</source>
+        <source>Payment request network doesn&apos;t match client network.</source>
         <translation>付款要求的網路類型跟客戶端不符。</translation>
     </message>
     <message>
@@ -1444,8 +1454,8 @@
         <translation>金額</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. %1)</source>
-        <translation>輸入 Bitcoin 位址 (比如說 %1)</translation>
+        <source>Enter a Bitcoin Youth address (e.g. %1)</source>
+        <translation>輸入 Bitcoin Youth 位址 (比如說 %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1477,23 +1487,33 @@
     </message>
     <message numerus="yes">
         <source>%n second(s)</source>
-        <translation><numerusform>%n 秒鐘</numerusform></translation>
+        <translation>
+            <numerusform>%n 秒鐘</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <source>%n minute(s)</source>
-        <translation><numerusform>%n 分鐘</numerusform></translation>
+        <translation>
+            <numerusform>%n 分鐘</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <source>%n hour(s)</source>
-        <translation><numerusform>%n 小時</numerusform></translation>
+        <translation>
+            <numerusform>%n 小時</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <source>%n day(s)</source>
-        <translation><numerusform>%n 天</numerusform></translation>
+        <translation>
+            <numerusform>%n 天</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <source>%n week(s)</source>
-        <translation><numerusform>%n 星期</numerusform></translation>
+        <translation>
+            <numerusform>%n 星期</numerusform>
+        </translation>
     </message>
     <message>
         <source>%1 and %2</source>
@@ -1501,7 +1521,9 @@
     </message>
     <message numerus="yes">
         <source>%n year(s)</source>
-        <translation><numerusform>%n 年</numerusform></translation>
+        <translation>
+            <numerusform>%n 年</numerusform>
+        </translation>
     </message>
     <message>
         <source>%1 B</source>
@@ -1520,7 +1542,7 @@
         <translation>%1 GB (十億位元組)</translation>
     </message>
     <message>
-        <source>%1 didn't yet exit safely...</source>
+        <source>%1 didn&apos;t yet exit safely...</source>
         <translation>%1 還沒有安全地結束...</translation>
     </message>
     <message>
@@ -1531,8 +1553,8 @@
 <context>
     <name>QObject::QObject</name>
     <message>
-        <source>Error: Specified data directory "%1" does not exist.</source>
-        <translation>錯誤: 不存在指定的資料目錄 "%1" 。</translation>
+        <source>Error: Specified data directory &quot;%1&quot; does not exist.</source>
+        <translation>錯誤: 不存在指定的資料目錄 &quot;%1&quot; 。</translation>
     </message>
     <message>
         <source>Error: Cannot parse configuration file: %1. Only use key=value syntax.</source>
@@ -1868,8 +1890,8 @@
         <translation>訊息(&amp;M):</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
-        <translation>附加在付款要求中的訊息，可以不填，打開要求內容時會顯示。注意: 這個訊息不會隨著付款送到 Bitcoin 網路上。</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin Youth network.</source>
+        <translation>附加在付款要求中的訊息，可以不填，打開要求內容時會顯示。注意: 這個訊息不會隨著付款送到 Bitcoin Youth 網路上。</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -1892,7 +1914,7 @@
         <translation>清空</translation>
     </message>
     <message>
-        <source>Native segwit addresses (aka Bech32 or BIP-173) reduce your transaction fees later on and offer better protection against typos, but old wallets don't support them. When unchecked, an address compatible with older wallets will be created instead.</source>
+        <source>Native segwit addresses (aka Bech32 or BIP-173) reduce your transaction fees later on and offer better protection against typos, but old wallets don&apos;t support them. When unchecked, an address compatible with older wallets will be created instead.</source>
         <translation>使用 segwit 原生位址(也叫做 Bech32 或 BIP-173)可以減少日後的交易手續費，也比較不容易打錯字，不過會跟舊版的錢包軟體不相容。如果沒有勾選的話，會改產生與舊版錢包軟體相容的位址。</translation>
     </message>
     <message>
@@ -2105,7 +2127,7 @@
         <translation>每千位元組</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 satoshis and the transaction is only 250 bytes, then "per kilobyte" only pays 250 satoshis in fee, while "total at least" pays 1000 satoshis. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <source>If the custom fee is set to 1000 satoshis and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 satoshis in fee, while &quot;total at least&quot; pays 1000 satoshis. For transactions bigger than a kilobyte both pay by kilobyte.</source>
         <translation>如果自訂手續費設定為 1000 satoshi, 而交易資料大小只有 250 個位元組的話，那麽選擇「每千位元組」就只會付 250 satoshi 的手續費，換做選「總共至少」就會付 1000 satoshi. 但是如果交易資料大小超過一千個位元組，那麽兩者都是每千位元組的費用。</translation>
     </message>
     <message>
@@ -2113,7 +2135,7 @@
         <translation>隱藏</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for bitcoin transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for bitcoin youth transactions than the network can process.</source>
         <translation>當交易量少於區塊可容納的空間時，只付最低手續費不會有什麽問題。但是當交易量的需求成長到超過整體網路可以處理的量時，可能會造成一筆一直不會被確認的交易。</translation>
     </message>
     <message>
@@ -2157,7 +2179,7 @@
         <translation>啟用手續費追加</translation>
     </message>
     <message>
-        <source>With Replace-By-Fee (BIP-125) you can increase a transaction's fee after it is sent. Without this, a higher fee may be recommended to compensate for increased transaction delay risk.</source>
+        <source>With Replace-By-Fee (BIP-125) you can increase a transaction&apos;s fee after it is sent. Without this, a higher fee may be recommended to compensate for increased transaction delay risk.</source>
         <translation>手續費追加(Replace-By-Fee, BIP-125)可以讓你在送出交易後才來提高手續費。不用這個功能的話，建議付比較高的手續費來降低交易延遲的風險。</translation>
     </message>
     <message>
@@ -2281,8 +2303,8 @@
         <translation>只付必要的手續費 %1</translation>
     </message>
     <message>
-        <source>Warning: Invalid Bitcoin address</source>
-        <translation>警告: Bitcoin 位址無效</translation>
+        <source>Warning: Invalid Bitcoin Youth address</source>
+        <translation>警告: Bitcoin Youth 位址無效</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2324,8 +2346,8 @@
         <translation>這是一筆正常的付款。</translation>
     </message>
     <message>
-        <source>The Bitcoin address to send the payment to</source>
-        <translation>接收付款的 Bitcoin 位址</translation>
+        <source>The Bitcoin Youth address to send the payment to</source>
+        <translation>接收付款的 Bitcoin Youth 位址</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2344,8 +2366,8 @@
         <translation>刪掉這個項目</translation>
     </message>
     <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less bitcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>手續費會從要付款出去的金額中扣掉。因此收款人會收到比輸入的金額還要少的 bitcoin。如果有多個收款人的話，手續費會平均分配來扣除。</translation>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less bitcoinyouths than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <translation>手續費會從要付款出去的金額中扣掉。因此收款人會收到比輸入的金額還要少的 bitcoinyouth。如果有多個收款人的話，手續費會平均分配來扣除。</translation>
     </message>
     <message>
         <source>S&amp;ubtract fee from amount</source>
@@ -2372,8 +2394,8 @@
         <translation>請輸入這個位址的標記，來把它加進去已使用過位址的清單。</translation>
     </message>
     <message>
-        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
-        <translation>附加在 Bitcoin 付款協議的資源識別碼(URI)中的訊息，會和交易內容一起存起來，給你自己做參考。注意: 這個訊息不會送到 Bitcoin 網路上。</translation>
+        <source>A message that was attached to the bitcoinyouth: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin Youth network.</source>
+        <translation>附加在 Bitcoin Youth 付款協議的資源識別碼(URI)中的訊息，會和交易內容一起存起來，給你自己做參考。注意: 這個訊息不會送到 Bitcoin Youth 網路上。</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2417,12 +2439,12 @@
         <translation>簽署訊息(&amp;S)</translation>
     </message>
     <message>
-        <source>You can sign messages/agreements with your addresses to prove you can receive bitcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <source>You can sign messages/agreements with your addresses to prove you can receive bitcoinyouths sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation>你可以用自己的位址簽署訊息或合約，來證明你可以從該位址收款。但是請小心，不要簽署語意含糊不清，或隨機產生的內容，因為釣魚式詐騙可能會用騙你簽署的手法來冒充是你。只有在語句中的細節你都同意時才簽署。</translation>
     </message>
     <message>
-        <source>The Bitcoin address to sign the message with</source>
-        <translation>用來簽署訊息的 Bitcoin 位址</translation>
+        <source>The Bitcoin Youth address to sign the message with</source>
+        <translation>用來簽署訊息的 Bitcoin Youth 位址</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2453,8 +2475,8 @@
         <translation>複製目前的簽章到系統剪貼簿</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
-        <translation>簽署這個訊息來證明這個 Bitcoin 位址是你的</translation>
+        <source>Sign the message to prove you own this Bitcoin Youth address</source>
+        <translation>簽署這個訊息來證明這個 Bitcoin Youth 位址是你的</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2473,16 +2495,16 @@
         <translation>驗證訊息(&amp;V)</translation>
     </message>
     <message>
-        <source>Enter the receiver's address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack. Note that this only proves the signing party receives with the address, it cannot prove sendership of any transaction!</source>
+        <source>Enter the receiver&apos;s address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack. Note that this only proves the signing party receives with the address, it cannot prove sendership of any transaction!</source>
         <translation>請在下面輸入收款人的位址，訊息(請確定完整複製了所包含的換行，空格，跳位符號等等)，以及簽章，來驗證這個訊息。請小心，除了訊息內容以外，不要對簽章本身過度解讀，以避免被用「中間人攻擊法」詐騙。請注意，通過驗證的簽章只能證明簽章人確實可以從該位址收款，不能證明任何交易中的付款人身份！</translation>
     </message>
     <message>
-        <source>The Bitcoin address the message was signed with</source>
-        <translation>簽署這個訊息的 Bitcoin 位址</translation>
+        <source>The Bitcoin Youth address the message was signed with</source>
+        <translation>簽署這個訊息的 Bitcoin Youth 位址</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation>驗證這個訊息來確定是用指定的 Bitcoin 位址簽署的</translation>
+        <source>Verify the message to ensure it was signed with the specified Bitcoin Youth address</source>
+        <translation>驗證這個訊息來確定是用指定的 Bitcoin Youth 位址簽署的</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2493,7 +2515,7 @@
         <translation>重設所有訊息驗證欄位</translation>
     </message>
     <message>
-        <source>Click "Sign Message" to generate signature</source>
+        <source>Click &quot;Sign Message&quot; to generate signature</source>
         <translation>請按一下「簽署訊息」來產生簽章</translation>
     </message>
     <message>
@@ -2563,7 +2585,9 @@
     <name>TransactionDesc</name>
     <message numerus="yes">
         <source>Open for %n more block(s)</source>
-        <translation><numerusform>到下 %n 個區塊生出來前可修改</numerusform></translation>
+        <translation>
+            <numerusform>到下 %n 個區塊生出來前可修改</numerusform>
+        </translation>
     </message>
     <message>
         <source>Open until %1</source>
@@ -2611,7 +2635,9 @@
     </message>
     <message numerus="yes">
         <source>, broadcast through %n node(s)</source>
-        <translation><numerusform>，已公告給 %n 個節點</numerusform></translation>
+        <translation>
+            <numerusform>，已公告給 %n 個節點</numerusform>
+        </translation>
     </message>
     <message>
         <source>Date</source>
@@ -2655,7 +2681,9 @@
     </message>
     <message numerus="yes">
         <source>matures in %n more block(s)</source>
-        <translation><numerusform>再等 %n 個區塊生出來後成熟</numerusform></translation>
+        <translation>
+            <numerusform>再等 %n 個區塊生出來後成熟</numerusform>
+        </translation>
     </message>
     <message>
         <source>not accepted</source>
@@ -2706,7 +2734,7 @@
         <translation>商家</translation>
     </message>
     <message>
-        <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
+        <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
         <translation>生產出來的錢要再等 %1 個區塊生出來後才成熟可以用。當區塊生產出來時會公布到網路上，來被加進區塊鏈。如果加失敗了，狀態就會變成「不被接受」，而且不能夠花。如果在你生產出區塊的幾秒鐘內，也有其他節點生產出來的話，就有可能會發生這種情形。</translation>
     </message>
     <message>
@@ -2761,7 +2789,9 @@
     </message>
     <message numerus="yes">
         <source>Open for %n more block(s)</source>
-        <translation><numerusform>到下 %n 個區塊生出來前可修改</numerusform></translation>
+        <translation>
+            <numerusform>到下 %n 個區塊生出來前可修改</numerusform>
+        </translation>
     </message>
     <message>
         <source>Open until %1</source>
@@ -3068,7 +3098,7 @@
         <translation>確認手續費提升</translation>
     </message>
     <message>
-        <source>Can't sign transaction.</source>
+        <source>Can&apos;t sign transaction.</source>
         <translation>沒辦法簽署交易。</translation>
     </message>
     <message>
@@ -3175,8 +3205,8 @@
         <translation>無法啟動 HTTP 伺服器。詳情請看除錯紀錄。</translation>
     </message>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
+        <source>Bitcoin Youth</source>
+        <translation>Bitcoin Youth</translation>
     </message>
     <message>
         <source>The %s developers</source>
@@ -3243,7 +3273,7 @@
         <translation>允許一次錢包交易或未加工交易付出的最高總手續費(單位是 %s)；設定太低的話，可能會無法進行資料量大的交易(預設值: %s)</translation>
     </message>
     <message>
-        <source>Please check that your computer's date and time are correct! If your clock is wrong, %s will not work properly.</source>
+        <source>Please check that your computer&apos;s date and time are correct! If your clock is wrong, %s will not work properly.</source>
         <translation>請檢查電腦日期和時間是否正確！%s 沒辦法在時鐘不準的情況下正常運作。</translation>
     </message>
     <message>
@@ -3267,7 +3297,7 @@
         <translation>設定指令碼驗證的執行緒數目 (%u 到 %d，0 表示程式自動決定，小於 0 表示保留處理器核心不用的數目，預設值: %d)</translation>
     </message>
     <message>
-        <source>The block database contains a block which appears to be from the future. This may be due to your computer's date and time being set incorrectly. Only rebuild the block database if you are sure that your computer's date and time are correct</source>
+        <source>The block database contains a block which appears to be from the future. This may be due to your computer&apos;s date and time being set incorrectly. Only rebuild the block database if you are sure that your computer&apos;s date and time are correct</source>
         <translation>區塊資料庫中有來自未來的區塊。可能是你電腦的日期時間不對。如果確定電腦日期時間沒錯的話，就重建區塊資料庫看看。</translation>
     </message>
     <message>
@@ -3343,8 +3373,8 @@
         <translation>區塊製造選項:</translation>
     </message>
     <message>
-        <source>Cannot resolve -%s address: '%s'</source>
-        <translation>沒辦法解析 -%s 參數指定的位址: '%s'</translation>
+        <source>Cannot resolve -%s address: &apos;%s&apos;</source>
+        <translation>沒辦法解析 -%s 參數指定的位址: &apos;%s&apos;</translation>
     </message>
     <message>
         <source>Chain selection options:</source>
@@ -3399,7 +3429,7 @@
         <translation>對交易暫存池啟用替代交易(預設值: %u)</translation>
     </message>
     <message>
-        <source>Error creating %s: You can't create non-HD wallets with this version.</source>
+        <source>Error creating %s: You can&apos;t create non-HD wallets with this version.</source>
         <translation>產生 %s 發生錯誤：這個版本不能用來產生非 HD 錢包。</translation>
     </message>
     <message>
@@ -3455,16 +3485,16 @@
         <translation>初始化時的基本檢查失敗了。%s 就要關閉了。</translation>
     </message>
     <message>
-        <source>Invalid amount for -%s=&lt;amount&gt;: '%s'</source>
-        <translation>參數 -%s=&lt;金額&gt; 指定的金額無效: '%s'</translation>
+        <source>Invalid amount for -%s=&lt;amount&gt;: &apos;%s&apos;</source>
+        <translation>參數 -%s=&lt;金額&gt; 指定的金額無效: &apos;%s&apos;</translation>
     </message>
     <message>
-        <source>Invalid amount for -discardfee=&lt;amount&gt;: '%s'</source>
-        <translation>設定 -discardfee=&lt;金額&gt; 的金額無效: '%s'</translation>
+        <source>Invalid amount for -discardfee=&lt;amount&gt;: &apos;%s&apos;</source>
+        <translation>設定 -discardfee=&lt;金額&gt; 的金額無效: &apos;%s&apos;</translation>
     </message>
     <message>
-        <source>Invalid amount for -fallbackfee=&lt;amount&gt;: '%s'</source>
-        <translation>設定 -fallbackfee=&lt;金額&gt; 的金額無效: '%s'</translation>
+        <source>Invalid amount for -fallbackfee=&lt;amount&gt;: &apos;%s&apos;</source>
+        <translation>設定 -fallbackfee=&lt;金額&gt; 的金額無效: &apos;%s&apos;</translation>
     </message>
     <message>
         <source>Keep the transaction memory pool below &lt;n&gt; megabytes (default: %u)</source>
@@ -3627,8 +3657,8 @@
         <translation>當沒有設定 paytxfee 時，自動包含可以讓交易能在平均 n 個區塊內開始確認的手續費(預設值: %u)</translation>
     </message>
     <message>
-        <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s' (must be at least the minrelay fee of %s to prevent stuck transactions)</source>
-        <translation>-maxtxfee=&lt;amount&gt;: '%s' 的金額無效 (必須大於最低轉發手續費 %s 以避免交易無法確認)</translation>
+        <source>Invalid amount for -maxtxfee=&lt;amount&gt;: &apos;%s&apos; (must be at least the minrelay fee of %s to prevent stuck transactions)</source>
+        <translation>-maxtxfee=&lt;amount&gt;: &apos;%s&apos; 的金額無效 (必須大於最低轉發手續費 %s 以避免交易無法確認)</translation>
     </message>
     <message>
         <source>Maximum size of data in data carrier transactions we relay and mine (default: %u)</source>
@@ -3667,7 +3697,7 @@
         <translation>透過 SOCKS5 代理伺服器連線</translation>
     </message>
     <message>
-        <source>Error loading %s: You can't disable HD on an already existing HD wallet</source>
+        <source>Error loading %s: You can&apos;t disable HD on an already existing HD wallet</source>
         <translation>載入 %s 發生錯誤：不能對已存在的 HD 錢包停用 HD 功能。</translation>
     </message>
     <message>
@@ -3687,28 +3717,28 @@
         <translation>資訊</translation>
     </message>
     <message>
-        <source>Invalid -onion address or hostname: '%s'</source>
-        <translation>無效的 -onion 位址或主機名稱: '%s'</translation>
+        <source>Invalid -onion address or hostname: &apos;%s&apos;</source>
+        <translation>無效的 -onion 位址或主機名稱: &apos;%s&apos;</translation>
     </message>
     <message>
-        <source>Invalid -proxy address or hostname: '%s'</source>
-        <translation>無效的 -proxy 位址或主機名稱: '%s'</translation>
+        <source>Invalid -proxy address or hostname: &apos;%s&apos;</source>
+        <translation>無效的 -proxy 位址或主機名稱: &apos;%s&apos;</translation>
     </message>
     <message>
-        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s' (must be at least %s)</source>
-        <translation>設定 -paytxfee=&lt;金額&gt; 的金額無效: '%s' (至少要有 %s)</translation>
+        <source>Invalid amount for -paytxfee=&lt;amount&gt;: &apos;%s&apos; (must be at least %s)</source>
+        <translation>設定 -paytxfee=&lt;金額&gt; 的金額無效: &apos;%s&apos; (至少要有 %s)</translation>
     </message>
     <message>
-        <source>Invalid netmask specified in -whitelist: '%s'</source>
-        <translation>指定在 -whitelist 的網段無效: '%s'</translation>
+        <source>Invalid netmask specified in -whitelist: &apos;%s&apos;</source>
+        <translation>指定在 -whitelist 的網段無效: &apos;%s&apos;</translation>
     </message>
     <message>
         <source>Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</source>
         <translation>保持最多 &lt;n&gt; 無法連結的交易在記憶體 (預設: %u)</translation>
     </message>
     <message>
-        <source>Need to specify a port with -whitebind: '%s'</source>
-        <translation>指定 -whitebind 時必須包含通訊埠: '%s'</translation>
+        <source>Need to specify a port with -whitebind: &apos;%s&apos;</source>
+        <translation>指定 -whitebind 時必須包含通訊埠: &apos;%s&apos;</translation>
     </message>
     <message>
         <source>Node relay options:</source>
@@ -3743,16 +3773,16 @@
         <translation>簽署交易失敗</translation>
     </message>
     <message>
-        <source>Specified -walletdir "%s" does not exist</source>
-        <translation>以 -walletdir 指定的路徑 "%s" 不存在</translation>
+        <source>Specified -walletdir &quot;%s&quot; does not exist</source>
+        <translation>以 -walletdir 指定的路徑 &quot;%s&quot; 不存在</translation>
     </message>
     <message>
-        <source>Specified -walletdir "%s" is a relative path</source>
-        <translation>以 -walletdir 指定的路徑 "%s" 是相對路徑</translation>
+        <source>Specified -walletdir &quot;%s&quot; is a relative path</source>
+        <translation>以 -walletdir 指定的路徑 &quot;%s&quot; 是相對路徑</translation>
     </message>
     <message>
-        <source>Specified -walletdir "%s" is not a directory</source>
-        <translation>以 -walletdir 指定的路徑 "%s" 不是個目錄</translation>
+        <source>Specified -walletdir &quot;%s&quot; is not a directory</source>
+        <translation>以 -walletdir 指定的路徑 &quot;%s&quot; 不是個目錄</translation>
     </message>
     <message>
         <source>The transaction amount is too small to pay the fee</source>
@@ -3863,7 +3893,7 @@
         <translation>轉發和開採時，交易資料中每個 sigop 的等同位元組數(預設值: %u)</translation>
     </message>
     <message>
-        <source>Error loading %s: You can't enable HD on an already existing non-HD wallet</source>
+        <source>Error loading %s: You can&apos;t enable HD on an already existing non-HD wallet</source>
         <translation>載入 %s 發生錯誤：不能對已存在的非 HD 錢包啟用 HD 功能。</translation>
     </message>
     <message>
@@ -3931,7 +3961,7 @@
         <translation>試著保持輸出流量在目標值以下，單位是每 24 小時的百萬位元組(MiB)數，0 表示沒有限制(預設值: %d)</translation>
     </message>
     <message>
-        <source>Unsupported argument -socks found. Setting SOCKS version isn't possible anymore, only SOCKS5 proxies are supported.</source>
+        <source>Unsupported argument -socks found. Setting SOCKS version isn&apos;t possible anymore, only SOCKS5 proxies are supported.</source>
         <translation>找到不再支援的 -socks 參數。現在只支援 SOCKS5 協定的代理伺服器，因此不可以指定 SOCKS 協定版本了。</translation>
     </message>
     <message>
@@ -3943,7 +3973,7 @@
         <translation>使用另外的 SOCK5 代理伺服器，來透過 Tor 隱藏服務跟其他節點聯絡(預設值: %s)</translation>
     </message>
     <message>
-        <source>Warning: Unknown block versions being mined! It's possible unknown rules are in effect</source>
+        <source>Warning: Unknown block versions being mined! It&apos;s possible unknown rules are in effect</source>
         <translation>警告: 有礦工正在開採不明版本的區塊！這表示有不明的交易規則正在作用中</translation>
     </message>
     <message>
@@ -4087,8 +4117,8 @@
         <translation>交易必須至少要有一個收款人</translation>
     </message>
     <message>
-        <source>Unknown network specified in -onlynet: '%s'</source>
-        <translation>在 -onlynet 指定了不明的網路別: '%s'</translation>
+        <source>Unknown network specified in -onlynet: &apos;%s&apos;</source>
+        <translation>在 -onlynet 指定了不明的網路別: &apos;%s&apos;</translation>
     </message>
     <message>
         <source>Insufficient funds</source>

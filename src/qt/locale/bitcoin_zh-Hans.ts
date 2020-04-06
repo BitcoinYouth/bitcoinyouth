@@ -1,4 +1,6 @@
-<TS language="zh-Hans" version="2.1">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="zh">
 <context>
     <name>AddressBookPage</name>
     <message>
@@ -62,12 +64,12 @@
         <translation>接收地址</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>这是你的比特币发币地址。发送前请确认发送数量和接收地址</translation>
+        <source>These are your Bitcoin Youth addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation type="unfinished">这是你的比特币发币青春版地址。发送前请确认发送数量和接收地址</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>这是你的比特币接收地址。建议每次交易都使用新地址</translation>
+        <source>These are your Bitcoin Youth addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation type="unfinished">这是你的比特币青春版接收地址。建议每次交易都使用新地址</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -115,72 +117,21 @@
         <source>Encrypt wallet</source>
         <translation>加密钱包</translation>
     </message>
-    </context>
-<context>
-    <name>BanTableModel</name>
-    </context>
-<context>
-    <name>BitcoinGUI</name>
-    </context>
+</context>
 <context>
     <name>CoinControlDialog</name>
     <message>
         <source>(no label)</source>
         <translation>(无标签)</translation>
     </message>
-    </context>
-<context>
-    <name>EditAddressDialog</name>
-    </context>
-<context>
-    <name>FreespaceChecker</name>
-    </context>
-<context>
-    <name>HelpMessageDialog</name>
-    </context>
-<context>
-    <name>Intro</name>
-    </context>
-<context>
-    <name>ModalOverlay</name>
-    </context>
-<context>
-    <name>OpenURIDialog</name>
-    </context>
-<context>
-    <name>OptionsDialog</name>
-    </context>
-<context>
-    <name>OverviewPage</name>
-    </context>
-<context>
-    <name>PaymentServer</name>
-    </context>
-<context>
-    <name>PeerTableModel</name>
-    </context>
-<context>
-    <name>QObject</name>
-    </context>
-<context>
-    <name>QObject::QObject</name>
-    </context>
-<context>
-    <name>QRImageWidget</name>
-    </context>
-<context>
-    <name>RPCConsole</name>
-    </context>
-<context>
-    <name>ReceiveCoinsDialog</name>
-    </context>
+</context>
 <context>
     <name>ReceiveRequestDialog</name>
     <message>
         <source>Label</source>
         <translation>标签</translation>
     </message>
-    </context>
+</context>
 <context>
     <name>RecentRequestsTableModel</name>
     <message>
@@ -191,7 +142,7 @@
         <source>(no label)</source>
         <translation>(无标签)</translation>
     </message>
-    </context>
+</context>
 <context>
     <name>SendCoinsDialog</name>
     <message>
@@ -199,30 +150,6 @@
         <translation>(无标签)</translation>
     </message>
 </context>
-<context>
-    <name>SendCoinsEntry</name>
-    </context>
-<context>
-    <name>SendConfirmationDialog</name>
-    </context>
-<context>
-    <name>ShutdownWindow</name>
-    </context>
-<context>
-    <name>SignVerifyMessageDialog</name>
-    </context>
-<context>
-    <name>SplashScreen</name>
-    </context>
-<context>
-    <name>TrafficGraphWidget</name>
-    </context>
-<context>
-    <name>TransactionDesc</name>
-    </context>
-<context>
-    <name>TransactionDescDialog</name>
-    </context>
 <context>
     <name>TransactionTableModel</name>
     <message>
@@ -233,7 +160,7 @@
         <source>(no label)</source>
         <translation>(无标签)</translation>
     </message>
-    </context>
+</context>
 <context>
     <name>TransactionView</name>
     <message>
@@ -248,16 +175,7 @@
         <source>Exporting Failed</source>
         <translation>导出失败</translation>
     </message>
-    </context>
-<context>
-    <name>UnitDisplayStatusBarControl</name>
-    </context>
-<context>
-    <name>WalletFrame</name>
-    </context>
-<context>
-    <name>WalletModel</name>
-    </context>
+</context>
 <context>
     <name>WalletView</name>
     <message>
@@ -268,8 +186,5 @@
         <source>Export the data in the current tab to a file</source>
         <translation>导出当前数据到文件</translation>
     </message>
-    </context>
-<context>
-    <name>bitcoin-core</name>
-    </context>
+</context>
 </TS>

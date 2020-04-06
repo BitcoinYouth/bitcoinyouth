@@ -1,4 +1,6 @@
-<TS language="zh_HK" version="2.1">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="zh_HK">
 <context>
     <name>AddressBookPage</name>
     <message>
@@ -62,12 +64,12 @@
         <translation>收款地址</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>這些是你要付款過去的 Bitcoin 位址。在付款之前，務必要檢查金額和收款位址是否正確。</translation>
+        <source>These are your Bitcoin Youth addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation type="unfinished">這些是你要付款過去的 Bitcoin Youth 位址。在付款之前，務必要檢查金額和收款位址是否正確。</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>這些是你用來收款的 Bitcoin 位址。建議在每次交易時，都使用一個新的收款位址。</translation>
+        <source>These are your Bitcoin Youth addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation type="unfinished">這些是你用來收款的 Bitcoin Youth 位址。建議在每次交易時，都使用一個新的收款位址。</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -168,8 +170,8 @@
         <translation>確認錢包加密</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation>警告: 如果你將錢包加密後又忘記密碼，你就會&lt;b&gt;失去所有 Bitcoin 了&lt;/b&gt;！</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINYOUTHS&lt;/b&gt;!</source>
+        <translation type="unfinished">警告: 如果你將錢包加密後又忘記密碼，你就會&lt;b&gt;失去所有 Bitcoin Youth 了&lt;/b&gt;！</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -180,8 +182,8 @@
         <translation>錢包已加密</translation>
     </message>
     <message>
-        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation>%1 現在要關閉來完成加密程序。請記得將錢包加密不能完全防止你的 Bitcoins 經被入侵電腦的惡意程式偷取。</translation>
+        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoinyouths from being stolen by malware infecting your computer.</source>
+        <translation type="unfinished">%1 現在要關閉來完成加密程序。請記得將錢包加密不能完全防止你的 BitcoinYouths 經被入侵電腦的惡意程式偷取。</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -322,8 +324,8 @@
         <translation>正在為磁碟區塊重建索引...</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation>付款至一個 Bitcoin 位址</translation>
+        <source>Send coins to a Bitcoin Youth address</source>
+        <translation>付款至一個 Bitcoin Youth 位址</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -346,8 +348,8 @@
         <translation>驗證訊息... &amp;V</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <source>Bitcoin Youth</source>
+        <translation>Bitcoin Youth</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -407,53 +409,32 @@
         <translation>日期: %1
 </translation>
     </message>
-    </context>
+</context>
 <context>
     <name>CoinControlDialog</name>
     <message>
         <source>(no label)</source>
         <translation>(無標記)</translation>
     </message>
-    </context>
-<context>
-    <name>EditAddressDialog</name>
-    </context>
-<context>
-    <name>FreespaceChecker</name>
-    </context>
-<context>
-    <name>HelpMessageDialog</name>
-    </context>
+</context>
 <context>
     <name>Intro</name>
     <message>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <source>Bitcoin Youth</source>
+        <translation>Bitcoin Youth</translation>
     </message>
     <message>
         <source>Error</source>
         <translation>錯誤</translation>
     </message>
-    </context>
-<context>
-    <name>ModalOverlay</name>
-    </context>
-<context>
-    <name>OpenURIDialog</name>
-    </context>
+</context>
 <context>
     <name>OptionsDialog</name>
     <message>
         <source>Error</source>
         <translation>錯誤</translation>
     </message>
-    </context>
-<context>
-    <name>OverviewPage</name>
-    </context>
-<context>
-    <name>PaymentServer</name>
-    </context>
+</context>
 <context>
     <name>PeerTableModel</name>
     <message>
@@ -468,8 +449,8 @@
 <context>
     <name>QObject</name>
     <message>
-        <source>Enter a Bitcoin address (e.g. %1)</source>
-        <translation>輸入一個 Bitcoin 位址 (例如 %1)</translation>
+        <source>Enter a Bitcoin Youth address (e.g. %1)</source>
+        <translation>輸入一個 Bitcoin Youth 位址 (例如 %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -501,23 +482,33 @@
     </message>
     <message numerus="yes">
         <source>%n second(s)</source>
-        <translation><numerusform>%n 秒</numerusform></translation>
+        <translation>
+            <numerusform>%n 秒</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <source>%n minute(s)</source>
-        <translation><numerusform>%n 分鐘</numerusform></translation>
+        <translation>
+            <numerusform>%n 分鐘</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <source>%n hour(s)</source>
-        <translation><numerusform>%n 小時</numerusform></translation>
+        <translation>
+            <numerusform>%n 小時</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <source>%n day(s)</source>
-        <translation><numerusform>%n 日</numerusform></translation>
+        <translation>
+            <numerusform>%n 日</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <source>%n week(s)</source>
-        <translation><numerusform>%n 星期</numerusform></translation>
+        <translation>
+            <numerusform>%n 星期</numerusform>
+        </translation>
     </message>
     <message>
         <source>%1 and %2</source>
@@ -525,12 +516,11 @@
     </message>
     <message numerus="yes">
         <source>%n year(s)</source>
-        <translation><numerusform>%n 年</numerusform></translation>
+        <translation>
+            <numerusform>%n 年</numerusform>
+        </translation>
     </message>
-    </context>
-<context>
-    <name>QObject::QObject</name>
-    </context>
+</context>
 <context>
     <name>QRImageWidget</name>
     <message>
@@ -572,10 +562,7 @@
         <source>Version</source>
         <translation>版本</translation>
     </message>
-    </context>
-<context>
-    <name>ReceiveCoinsDialog</name>
-    </context>
+</context>
 <context>
     <name>ReceiveRequestDialog</name>
     <message>
@@ -586,7 +573,7 @@
         <source>Label</source>
         <translation>標記</translation>
     </message>
-    </context>
+</context>
 <context>
     <name>RecentRequestsTableModel</name>
     <message>
@@ -597,7 +584,7 @@
         <source>(no label)</source>
         <translation>(無標記)</translation>
     </message>
-    </context>
+</context>
 <context>
     <name>SendCoinsDialog</name>
     <message>
@@ -606,33 +593,12 @@
     </message>
 </context>
 <context>
-    <name>SendCoinsEntry</name>
-    </context>
-<context>
-    <name>SendConfirmationDialog</name>
-    </context>
-<context>
-    <name>ShutdownWindow</name>
-    </context>
-<context>
-    <name>SignVerifyMessageDialog</name>
-    </context>
-<context>
-    <name>SplashScreen</name>
-    </context>
-<context>
-    <name>TrafficGraphWidget</name>
-    </context>
-<context>
     <name>TransactionDesc</name>
     <message>
         <source>Open until %1</source>
         <translation>開放至 %1</translation>
     </message>
-    </context>
-<context>
-    <name>TransactionDescDialog</name>
-    </context>
+</context>
 <context>
     <name>TransactionTableModel</name>
     <message>
@@ -647,7 +613,7 @@
         <source>(no label)</source>
         <translation>(無標記)</translation>
     </message>
-    </context>
+</context>
 <context>
     <name>TransactionView</name>
     <message>
@@ -666,16 +632,7 @@
         <source>Exporting Failed</source>
         <translation>匯出失敗</translation>
     </message>
-    </context>
-<context>
-    <name>UnitDisplayStatusBarControl</name>
-    </context>
-<context>
-    <name>WalletFrame</name>
-    </context>
-<context>
-    <name>WalletModel</name>
-    </context>
+</context>
 <context>
     <name>WalletView</name>
     <message>
@@ -686,7 +643,7 @@
         <source>Export the data in the current tab to a file</source>
         <translation>把目前分頁的資料匯出至檔案</translation>
     </message>
-    </context>
+</context>
 <context>
     <name>bitcoin-core</name>
     <message>
