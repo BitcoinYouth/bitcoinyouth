@@ -136,6 +136,8 @@ public:
         // vSeeds.emplace_back("seed.bitcoinstats.com"); // Christian Decker, supports x1 - xf
         // vSeeds.emplace_back("seed.bitcoin.jonasschnelli.ch"); // Jonas Schnelli, only supports x1, x5, x9, and xd
         // vSeeds.emplace_back("seed.btc.petertodd.org"); // Peter Todd, only supports x1, x5, x9, and xd
+        vSeeds.emplace_back("dnsseed.bitcoinyouth.org");
+        vSeeds.emplace_back("dnsseed.bitcoinyouth.com");
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,78);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,5);
