@@ -1,9 +1,22 @@
+Bitcoin Youth is derived from Bitcoin Core
+==========================================
+
+It aims to give the young people and those who don't own bitcoins a chance to get Bitcoins.
+----------------------------------
+
+The mainnet default port is 7333, rpc port is 7332.
+
+The testnet default port is 17333, rpc port is 17332.
+
+The regtest default port is 17444, rpc port is 17443.
+
+
+The total supply amount is 100x Bitcoin's.
+
+You are welcomed to join the community.
+
 Bitcoin Core integration/staging tree
 =====================================
-
-[![Build Status](https://travis-ci.org/bitcoin/bitcoin.svg?branch=master)](https://travis-ci.org/bitcoin/bitcoin)
-
-https://bitcoincore.org
 
 What is Bitcoin?
 ----------------

@@ -1,3 +1,10 @@
+Contributing to Bitcoin Youth
+=============================
+
+Follow the Rules Below.
+
+New contributors are very welcome and needed.
+
 Contributing to Bitcoin Core
 ============================
 

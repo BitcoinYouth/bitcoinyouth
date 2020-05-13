@@ -1,3 +1,10 @@
+Bitcoin Youth 
+=============
+Download directly from [bitcoinyouth.org](https://bitcoinyouth.org/)
+
+If you want to build it yourself, follow the instructions below.
+
+
 Bitcoin Core
 =============
 
